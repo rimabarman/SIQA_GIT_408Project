@@ -24,3 +24,21 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2071
+- serviceName: project.siqa_git_408.integrations:deepclonetest
+  packages:
+  - name: SIQA_GIT_408Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2071
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2071
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2071
